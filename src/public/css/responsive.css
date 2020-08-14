@@ -1,0 +1,64 @@
+@media screen and (max-width: 1050px) {
+    #nav {
+        min-height: unset;
+        width: 100%;
+        padding: 15px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 4px 0px;
+    }
+    #nav a {
+        margin-bottom: 0;
+    }
+    .nav__link {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    #main {
+        margin: 71px 0 0;
+    }
+    #main>div>div:nth-child(2)>div {
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #main {
+        padding: 20px;
+    }
+    #main>div {
+        display: block;
+    }
+    #main>div>div:nth-child(1) {
+        width: 100%;
+        margin-right: 0;
+    }
+    #main>div>div:nth-child(2) {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .modal {
+        width: 100% !important;
+        min-height: 100vh !important;
+        top: 0;
+    }
+    #main>#favorite>div:nth-child(2)>div {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .match__today .match:nth-child(2), .match__tomorrow .match:nth-child(2) {
+        height: 150px;
+    }
+    .modal .modal-content {
+        width: 100% !important;
+        padding: 5px !important;
+    }
+    .modal table {
+        font-size: 10px;
+    }
+    .modal table td div {
+        width: 20px;
+        height: 20px;
+    }
+}
